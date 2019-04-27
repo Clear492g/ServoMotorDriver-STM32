@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\20155\Desktop\编码器完成\V17_12_2_C8排障小车\USER\USART.uvprojx
+Project File Date:  08/27/2018
+
+<h2>Output:</h2>
+Build target 'USART'
+compiling command.c...
+..\HARDWARE\MOTOR\motor.h(10): warning:  #1295-D: Deprecated declaration MOTOR_CODE - give arg types
+  void MOTOR_CODE();      
+..\HARDWARE\COMMAND\command.h(40): warning:  #1295-D: Deprecated declaration motor_travel_fc - give arg types
+  void   motor_travel_fc();
+..\HARDWARE\COMMAND\command.h(41): warning:  #1295-D: Deprecated declaration motor_start_debug - give arg types
+  void   motor_start_debug();
+..\HARDWARE\COMMAND\command.h(42): warning:  #1295-D: Deprecated declaration motor_stop_debug - give arg types
+  void   motor_stop_debug();            
+..\HARDWARE\COMMAND\command.h(43): warning:  #1295-D: Deprecated declaration motor_round_debug1 - give arg types
+  void   motor_round_debug1();
+..\HARDWARE\COMMAND\command.h(44): warning:  #1295-D: Deprecated declaration motor_round_debug2 - give arg types
+  void   motor_round_debug2();
+..\HARDWARE\COMMAND\command.h(45): warning:  #1295-D: Deprecated declaration motor_code_debug - give arg types
+  void   motor_code_debug();
+..\HARDWARE\COMMAND\command.h(46): warning:  #1295-D: Deprecated declaration motor_init_debug - give arg types
+  void   motor_init_debug();
+..\HARDWARE\COMMAND\command.h(47): warning:  #1295-D: Deprecated declaration pid_debug - give arg types
+  void  pid_debug();
+..\HARDWARE\COMMAND\command.c(45): warning:  #177-D: variable "dir2" was declared but never referenced
+        u8 dir2 = 1;
+..\HARDWARE\COMMAND\command.c(46): warning:  #177-D: variable "motor_pwm3" was declared but never referenced
+        u16 motor_pwm3;
+..\HARDWARE\COMMAND\command.c(47): warning:  #177-D: variable "dir3" was declared but never referenced
+        u8 dir3 = 1;
+..\HARDWARE\COMMAND\command.c(205): warning:  #223-D: function "atoi" declared implicitly
+                Target_velocity4 =atoi(sp+4);
+..\HARDWARE\COMMAND\command.c(259): warning:  #1-D: last line of file ends without a newline
+  }     
+..\HARDWARE\COMMAND\command.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=17490 RO-data=866 RW-data=248 ZI-data=1832  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\20155\Desktop\编码器完成\V17_12_2_C8排障小车\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
